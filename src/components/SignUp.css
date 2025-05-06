@@ -1,0 +1,66 @@
+.signup-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ffe6cc, #fff0e6);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .signup-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 450px;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .brand-title {
+    font-family: 'Playfair Display', serif;
+    color: #d2691e;
+    
+  }
+  
+  .btn-glow {
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-glow:hover {
+    background-color: #a0522d;
+    transform: scale(1.02);
+  }
+  
+  .btn-outline-glow {
+    border: 2px solid #d2691e;
+    color: #d2691e;
+    transition: 0.3s ease;
+  }
+  
+  .btn-outline-glow:hover {
+    background-color: #d2691e;
+    color: white;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

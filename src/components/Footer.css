@@ -1,0 +1,110 @@
+.footer {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-brand,
+  .footer-links,
+  .footer-contact,
+  .footer-social,
+  .footer-newsletter {
+    flex: 1 1 200px;
+    padding: 10px;
+  }
+  
+  .footer-logo {
+    max-width: 120px;
+    margin-bottom: 10px;
+    height: 180px;
+  }
+  
+  .footer-brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .footer-links ul,
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li,
+  .footer-social ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a,
+  .footer-social ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover,
+  .footer-social ul li a:hover {
+    color: #ff6f61;
+  }
+  
+  .footer-newsletter input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .footer-newsletter button {
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .footer-newsletter button:hover {
+    background-color: #e05a4f;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .footer-social i {
+    font-size: 18px;
+  }
+  
+  .email-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .email-link:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  

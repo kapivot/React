@@ -1,0 +1,29 @@
+.carousel-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Caption styles */
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 60vh;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.75rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}

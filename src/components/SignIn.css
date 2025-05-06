@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body {
+  background: linear-gradient(to right, #fbe9e7, #ffe0b2);
+  font-family: 'Playfair Display', serif;
+}
+
+.signin-page {
+  min-height: 100vh;
+  background-image: url(''); /* Optional decorative background */
+  background-size: cover;
+  background-position: center;
+}
+
+.signin-card {
+  max-width: 500px;
+  background-color: #ffffffd9;
+  border-radius: 20px;
+  border: 1px solid #eee;
+}
+
+.brand-text {
+  color: #d2691e;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+.btn-glow {
+  background-color: #d2691e;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.btn-glow:hover {
+  background-color: #a0522d;
+  transform: scale(1.03);
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 38px;
+  cursor: pointer;
+  color: #a9a9a9;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}

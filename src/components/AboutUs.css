@@ -1,0 +1,158 @@
+/* General Styles of the entire about us page */
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    /* Border radius is for rounding the corners of the section */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    /*linear gradient is a type of background in CSS where colors transition smoothly from one to another along a straight line — either horizontally, vertically, or diagonally.*/ 
+    /* The linear-gradient creates a sleek, modern blend from teal to deep green-blue thus the difference in shades from left to right */
+    background: linear-gradient(to right, #2a9d8f, #264653);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  /* Styling the heading in the section inside the hero section classname */
+  .hero-section h1 {
+    font-size: 3.5em;
+  }
+  /* Styling the paragraph in the section inside the hero section classname */
+  .hero-section p {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  /*Styling the classname;Overview  */
+  .overview, .mission-vision, .why-choose, .customer-testimonials {
+    margin: 40px 0;
+  }
+  
+  .overview-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about-img {
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mission & Vision */
+  .mission-vision-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Why Choose Us Section */
+  .features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  /* Team Section */
+  .team {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 250px;
+  }
+  
+  .team-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .team-member h3 {
+    color: #2a9d8f;
+    margin-top: 10px;
+  }
+  
+  /* Testimonials Carousel */
+  .carousel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .testimonial {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial p:last-child {
+    font-weight: bold;
+    text-align: right;
+    color: #2a9d8f;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #888;
+  }
+  

@@ -1,0 +1,42 @@
+.contact-card,
+.contact-icon-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.contact-card:hover,
+.contact-icon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.contact-icon-card i {
+  color: #ff6f61;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .contact-card,
+  .contact-icon-card {
+    margin-bottom: 1rem;
+  }
+}
+
+.contact-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+ 
+  
+
+
